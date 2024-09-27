@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File Download Page</title>
-    <link rel="stylesheet" href="vmdownload/styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Download Files</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Download Files</h1>
-        <div class="file-entry">
-            <span class="file-name">script.py</span>
-            <span class="download-link" onclick="downloadFile('vmdownload/script.py')">[Download]</span>
-        </div>
-        <div class="file-entry">
-            <span class="file-name">rware.py</span>
-            <span class="download-link" onclick="downloadFile('vmdownload/rware.py')">[Download]</span>
-        </div>
-    </div>
-    <script src="vmdownload/script.js"></script>
+    <h1>Download Files</h1>
+    <ul>
+        <li>
+            <a href="script.py" download>script.py [Download]</a>
+        </li>
+        <li>
+            <a href="rware.py" download>rware.py [Download]</a>
+        </li>
+    </ul>
+    <script src="script.js"></script>
 </body>
 </html>
